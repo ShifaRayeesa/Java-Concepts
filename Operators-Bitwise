@@ -20,5 +20,7 @@ public class Bitwise {
         System.out.println(X>>>2);
         System.out.println("Unsigned Left Shift");
         System.out.println("There is no unsigned left shift operator");
+        System.out.println(true&true);
+        System.out.println(true&false);
     }
 }
