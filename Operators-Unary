@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Unary {
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int x= sc.nextInt();
+        int y= sc.nextInt();
+        int z= sc.nextInt();
+        int c= sc.nextInt();
+        boolean a = sc.nextBoolean();
+        System.out.println("Pre-inc and Post-inc operators:");
+        System.out.println(++x +" "+ x++);
+        System.out.println("Post-dec and Pre-dec operators:");
+        System.out.println(y-- +" "+ --y);
+        System.out.println("Unary minus");
+        System.out.println(-z);
+        System.out.println("NOT Operator");
+        System.out.println(!a);
+        System.out.println("Bitwise Complement");
+        System.out.println(~c);
+    }
+}
