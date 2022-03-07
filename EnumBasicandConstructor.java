@@ -13,10 +13,6 @@ enum EnumConstructor{
     }
 }
 
-enum EnumAbstract{
-    sayHi();
-    
-}
 public class Enum {
     public enum TrafficSignal{RED,YELLOW,GREEN}
     public static void main(String[] args)
