@@ -40,7 +40,7 @@ OVERRIDING
 In java
  + Methods --> Overridden
  + State/Data-field/Property --> not Overridden
- + Overridden methods should have the same return type and access modifier
+ + Overridden methods should have the same return type and same or higher access modifier
 
 Keyword 'super'
  + used to access data-fields and methods from parent class in a child class
